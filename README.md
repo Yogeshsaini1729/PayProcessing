@@ -37,13 +37,7 @@ The system consists of three key services:
    mvn spring-boot:run
    ```
 
-## API Endpoints
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/validate` | POST | Validate payment request |
-| `/process` | POST | Process payment transaction |
-| `/stripe/session` | GET | Create Stripe session |
-| `/status/{id}` | GET | Get payment status |
+
 
 ## Contributing
 1. Fork the repository.
